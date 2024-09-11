@@ -3,8 +3,8 @@
 // Custom colours and variables
 
 $jet: #131516;
-$accent: #107895;
-$accent2: #9a2515;
+$accent: #002FA7;
+$accent2: #c3272b;
 // $accent2: #e64173;
 $right-arrow: "\2192"; // Unicode character for right arrow
 
@@ -25,15 +25,20 @@ Note: This theme uses the Roboto font family, which it imports from Google
   from the choice set if the family is installed locally.
 */
 @import url('https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,350,350i,400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lora:ital,wght@0,400..700;1,350..700&family=Marcellus&family=Noto+Serif:ital,wdth,wght@0,62.5..100,350..900;1,62.5..100,350..900&display=swap');
 
-$font-family-sans-serif: "Roboto", sans-serif !default;
-$presentation-heading-font: "Roboto", sans-serif !default;
+$font-family-sans-serif: "Noto Serif","Roboto", sans-serif !default;
+$font-family-monospace: 'Inconsolata', monospace  !default;
+
+
+$presentation-heading-font: 'Marcellus', sans-serif  !default;
+// $presentation-heading-font: "Roboto", sans-serif !default;
 
 $presentation-heading-color: $jet !default;
 $presentation-heading-font-weight: lighter;
 //$presentation-heading-line-height: 2;
 //$presentation-block-margin: 28px;
-$presentation-font-size-root: 32px;
+$presentation-font-size-root: 30px;
 
 // colors
 //$body-bg: #f0f1eb !default;
@@ -111,7 +116,7 @@ $selection-bg: #26351c !default;
   font-style: italic;
   // font-weight: 350;
   font-weight: lighter;
-  font-size: 0.95em;
+  font-size: 0.75em;
 }
 
 .reveal h4 {
@@ -132,7 +137,7 @@ $selection-bg: #26351c !default;
 }
 
 .bg {
-  background-color: var(--col, #fff);
+  background-color: var(--col, #ef7a82);
   padding: 0.1em;
   border-radius: 5px;
   display: inline-block;
@@ -295,4 +300,5 @@ $selection-bg: #26351c !default;
   width: auto;
   height: auto;
   object-fit: contain;
+  align-self: center;
 }

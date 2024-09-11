@@ -16,7 +16,7 @@ commands to get started.
 If you would like to add the **clean** theme to an existing directory:
 
 ```bash
-quarto install extension grantmcdermott/quarto-revealjs-clean
+quarto install extension zaoanhh/quarto-revealjs-clean
 ```
 
 Alternatively, you can use a
@@ -29,7 +29,7 @@ two template options.
 - Bare bones template
 
 ```bash
-quarto use template grantmcdermott/quarto-revealjs-clean
+quarto use template zaoanhh/quarto-revealjs-clean
 ```
 
 - Full demo template
